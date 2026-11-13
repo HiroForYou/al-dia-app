@@ -1,0 +1,4 @@
+# Dependencias de eas-cli con scripts de instalación que no hacen falta (dtrace solo aplica a Linux/macOS).
+allowBuilds:
+  dtrace-provider: false
+  protobufjs: false
